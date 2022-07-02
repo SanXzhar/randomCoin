@@ -1,0 +1,118 @@
+:root{
+    overflow-x:hidden;
+    overflow-y:hidden;
+    width: 100vw;
+}
+
+.maintitle{
+    position: absolute;
+    width: 880px;
+    height: 163px;
+    left: 486px;
+    top: 171px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 163px;
+
+    background: linear-gradient(91.01deg, #FF9C43 0.45%, #FC3A8A 99.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle{
+    position: absolute;
+    width: 763px;
+    height: 36px;
+    left: 490px;
+    top: 334px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #000000; 
+}
+
+.car{
+
+    position: absolute;
+    left: 120px;
+    top: 491px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-top: 491px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    margin-right: 124px;
+    width: 310px;
+    height: 400px;
+
+    background: #FFFFFF;
+    border: 1px solid #ffffff42;
+    box-shadow: 8px 8px 28px rgba(0, 81, 255, 0.25);
+    border-radius: 20px;
+  
+}
+
+.im{
+    margin-top: 50px;
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.symbol{
+    margin-top: 25px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+}
+
+.pricechange{
+    margin-top: 20px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-size: 30px;
+}
+
+.price{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-size: 30px;
+}
