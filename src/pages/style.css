@@ -1,0 +1,61 @@
+.coinpage{
+    display: flex;
+}
+
+.sidebar{
+    font-family: 'Space Grotesk';
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-top: 2%;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    margin-top: 10%;
+    margin-left: 6.5%;
+
+    box-sizing: border-box;
+    margin-right: 124px;
+    width: 450px;
+    height: 700px;
+
+    background: #FFFFFF;
+    border: 1px solid #ffffff42;
+    box-shadow: 8px 8px 28px rgba(0, 81, 255, 0.25);
+    border-radius: 20px;
+}
+
+.name{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.desc{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.rank{
+    margin-top: 12.5px;
+    font-size: 20px;
+}
+
+.graphic{
+    font-family: 'Space Grotesk';
+
+    background: #FFFFFF;
+    border: 1px solid #ffffff42;
+    box-shadow: 8px 8px 28px rgba(0, 81, 255, 0.25);
+    border-radius: 20px;
+
+    flex: 1;
+    width: 35%;
+    margin-top: 10%;
+    margin-right: 6.5%;
+
+    padding: 5%;
+}

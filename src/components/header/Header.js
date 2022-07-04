@@ -26,6 +26,18 @@ const Header = () => {
           // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [coin, window.navid])  
 
+    useEffect(() => {
+        document.addEventListener('keydown', detectedKeyDown, true)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    const detectedKeyDown = (e) => {
+        if( e.key === " " ){
+            navigate(`${window.navid}`); window.location.reload()
+        }
+    }
+
+
     return(
         <div>
             <div className="title" onClick = { () => {navigate(`/`)} }>Crypto Rush</div>

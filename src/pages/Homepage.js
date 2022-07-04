@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../components/banner/Banner";
-// import Coinstable from "../components/Coinstable/Coinstable"
+//import Coinstable from "../components/Coinstable/Coinstable"
 
 
 const Homepage = () => {

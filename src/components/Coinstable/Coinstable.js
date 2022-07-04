@@ -3,8 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import { CoinList } from "../../config/api";
 import { CryptoState } from "../../CryptoContext";
-import { Container, LinearProgress, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, 
-    // TextField, Typography 
+import { Container, LinearProgress, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Typography 
 } from "@material-ui/core";
 import { useNavigate } from "react-router-dom";
 import { numberWithCommas } from "../banner/Carousel";
