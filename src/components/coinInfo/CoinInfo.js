@@ -6,6 +6,7 @@ import { CryptoState } from '../../CryptoContext';
 import { Line  } from "react-chartjs-2";
 import { chartDays } from "../../config/data";
 import Chart from 'chart.js/auto';
+import './style.css'
 
 
 const CoinInfo = ({coin}) => {

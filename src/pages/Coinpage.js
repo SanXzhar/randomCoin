@@ -31,7 +31,7 @@ const Coinpage = () => {
     <div className="coinpage">
       <div className="sidebar">
         <div>
-          <img 
+          <img className="imageone"
           src={coin?.image.large}
           alt={coin?.name}
           height="200"

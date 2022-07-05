@@ -1,5 +1,11 @@
 .coinpage{
     display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 3vw;
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    justify-content: space-between;
 }
 
 .sidebar{
@@ -10,52 +16,50 @@
     align-items: center;
     
     padding-top: 2%;
-    padding-left: 60px;
-    padding-right: 60px;
-
-    margin-top: 10%;
-    margin-left: 6.5%;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
 
     box-sizing: border-box;
-    margin-right: 124px;
-    width: 450px;
-    height: 700px;
+    width: 27vw;
+    height: 40vw;
 
     background: #FFFFFF;
     border: 1px solid #ffffff42;
     box-shadow: 8px 8px 28px rgba(0, 81, 255, 0.25);
-    border-radius: 20px;
+    border-radius: 1vw;
+}
+
+.imageone{
+    height: 8vw;
 }
 
 .name{
-    margin-top: 25px;
-    font-size: 25px;
+    margin-top: 0.7vw;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
 .desc{
-    margin-top: 25px;
-    font-size: 20px;
-    margin-bottom: 30px;
+    margin-top: 0.9vw;
+    font-size: 1.1vw;
+    margin-bottom: 1.5vw;
 }
 
 .rank{
-    margin-top: 12.5px;
-    font-size: 20px;
+    margin-top: 0.45vw;
+    font-size: 1.1vw;
 }
 
 .graphic{
     font-family: 'Space Grotesk';
 
+    width: 55vw;
+    height: 40vw;
+
     background: #FFFFFF;
     border: 1px solid #ffffff42;
     box-shadow: 8px 8px 28px rgba(0, 81, 255, 0.25);
-    border-radius: 20px;
-
-    flex: 1;
-    width: 35%;
-    margin-top: 10%;
-    margin-right: 6.5%;
+    border-radius: 1vw;
 
     padding: 5%;
 }
