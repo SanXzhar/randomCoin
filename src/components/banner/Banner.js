@@ -6,7 +6,7 @@ import './style.css'
 const Banner = () => {
 
     return(
-        <div>
+        <div className="topic">
               <div className="maintitle">Crypto Rush</div>
               <div className="subtitle">Get All The Info Regarding Your Favorite Crypto Currency</div>
               <Carousel></Carousel>

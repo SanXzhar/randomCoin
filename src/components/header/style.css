@@ -1,15 +1,10 @@
 .title{
     cursor: pointer;
-    position: absolute;
-    width: 344px;
-    height: 64px;
-    left: 120px;
-    top: 31px;
 
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 2.5vw;
     line-height: 64px;
     /* identical to box height */
     color: #000000;
@@ -17,16 +12,11 @@
 
 .home{
     cursor: pointer;
-    position: absolute;
-    width: 82px;
-    height: 37px;
-    left: 1238px;
-    top: 44px;
 
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.5vw;
     line-height: 38px;
 
     color: rgba(0, 0, 0, 0.6);
@@ -34,21 +24,38 @@
 
 .random{
     cursor: pointer;
-    position: absolute;
-    width: 313px;
-    height: 64px;
-    left: 1418px;
-    top: 31px;
+    width: 15vw;
+    height: 4vw;
+
+    border-radius: 100vw;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
 
     color: white;
     background: #000000;
-    border-radius: 32px;
+    border-radius: 100vw;
 }
 
+.mainbar{
+    margin-top: 2%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    align-items: center;
+    height: 4vw;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-left: 10%;
+}

@@ -39,10 +39,12 @@ const Header = () => {
 
 
     return(
-        <div>
+        <div className="mainbar">
             <div className="title" onClick = { () => {navigate(`/`)} }>Crypto Rush</div>
-            <div className="home" onClick = { () => {navigate(`/`)} }>Home</div>
-            <div className="random" onClick={ () => {navigate(`${window.navid}`); window.location.reload()}}> Random Coin</div>
+            <div className="buttons">
+                <div className="home" onClick = { () => {navigate(`/`)} }>Home</div>
+                <div className="random" onClick={ () => {navigate(`${window.navid}`); window.location.reload()}}> Random Coin</div>
+            </div>
         </div>
     )
 }

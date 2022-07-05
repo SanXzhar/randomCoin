@@ -4,38 +4,38 @@
     width: 100vw;
 }
 
-.maintitle{
-    position: absolute;
-    width: 880px;
-    height: 163px;
-    left: 486px;
-    top: 171px;
+.topic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 4%;
+}
 
+.maintitle{
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
-    font-size: 128px;
-    line-height: 163px;
-
+    font-size: 6vw;
     background: linear-gradient(91.01deg, #FF9C43 0.45%, #FC3A8A 99.61%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin-bottom: 0.8vw;
+    height: 8vw;
+    justify-content: center;
+
 }
 
 .subtitle{
-    position: absolute;
-    width: 763px;
-    height: 36px;
-    left: 490px;
-    top: 334px;
 
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 36px;
-    /* identical to box height */
+    font-size: 2vw;
+    height: 2vw;
+    align-items: center;
 
     color: #000000; 
 }
@@ -45,13 +45,15 @@
     position: absolute;
     left: 120px;
     top: 491px;
+
 }
 
 .item{
     display: flex;
     flex-direction: row;
-    margin-left: 120px;
-    margin-top: 491px;
+    margin-top: 6%;
+    width: 100vw;
+    justify-content: space-evenly;
 }
 
 .items {
@@ -60,22 +62,21 @@
     justify-content: space-around;
 
     box-sizing: border-box;
-    margin-right: 124px;
-    width: 310px;
-    height: 400px;
+    width: 17vw;
+    height: 45vh;
 
     background: #FFFFFF;
     border: 1px solid #ffffff42;
-    box-shadow: 8px 8px 28px rgba(0, 81, 255, 0.25);
-    border-radius: 20px;
+    box-shadow: 0.31vw 0.31vw 1.5vw rgba(0, 81, 255, 0.25);
+    border-radius: 1.7vw;
   
 }
 
 .im{
-    margin-top: 50px;
-    height: 140px;
-    width: 140px;
-    border-radius: 100px;
+    margin-top: 3vw;
+    height: 9vw;
+    width: 9vw;
+    border-radius: 100vw;
 }
 
 .top{
@@ -96,23 +97,26 @@
 }
 
 .symbol{
-    margin-top: 25px;
+    margin-top: 1.2vw;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 1.8vw;
     display: flex;
+    height: 2vw;
+    justify-content: center;
 }
 
 .pricechange{
-    margin-top: 20px;
+    margin-top: 1.1vw;
     font-family: 'Space Grotesk';
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 .price{
     font-family: 'Space Grotesk';
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.5vw;
+    font-weight: 500;
 }
