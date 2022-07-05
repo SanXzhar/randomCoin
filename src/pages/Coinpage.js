@@ -25,7 +25,7 @@ const Coinpage = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  if (!coin) return <LinearProgress style={{ backgroundColor: "gold" }} />;
+  if (!coin) return <LinearProgress style={{ marginTop: 15, backgroundColor: "gold" }} />;
 
   return (
     <div className="coinpage">
