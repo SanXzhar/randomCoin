@@ -5,8 +5,11 @@ import { useParams } from "react-router-dom";
 import { SingleCoin } from "../config/api";
 import { CryptoState } from "../CryptoContext";
 import { numberWithCommas } from "../components/banner/Carousel";
+import {htmlparser2} from "react-html-parser";
 import CoinInfo from "../components/coinInfo/CoinInfo";
 import './style.css'
+
+
 
 const Coinpage = () => {
   const { id } = useParams();
@@ -39,7 +42,7 @@ const Coinpage = () => {
           </div>
           <div>
             <div className="name">{coin?.name}</div>
-            <div className="desc">{coin?.description.en.split(".")[0]}</div>
+            <div className="desc">{htmlparser2(coin?.description.en.split(".")[0])}</div>
             <div className="rank">Rank: {numberWithCommas(coin?.market_cap_rank)}</div>
             <div className="rank">Current price: {symbol}{" "}{numberWithCommas(coin?.market_data.current_price[currency.toLowerCase()])}</div>
             <div className="rank">Market cup: {symbol}{" "}{numberWithCommas(coin?.market_data.market_cap[currency.toLowerCase()].toString().slice(0, -6))}M</div>

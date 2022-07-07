@@ -21,7 +21,7 @@ const Header = () => {
     }, [currency])
 
     useEffect(()=>{
-        window.coinid = Math.floor(Math.random() * 100)
+        window.coinid = Math.floor(Math.random() * 99)
         window.navid = `/coins/${coin && coin[window.coinid].id}`
           // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [coin, window.navid])  
